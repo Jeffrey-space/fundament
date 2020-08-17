@@ -1,0 +1,9 @@
+.fb-icon {
+	filter: invert(100%);
+	margin-top: 0.2rem;
+	margin-right: 2.5rem;
+}
+
+.tw-icon {
+	filter: invert(100%);
+}

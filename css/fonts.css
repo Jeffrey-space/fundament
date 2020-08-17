@@ -3,3 +3,8 @@
 	src: url("../fonts/gotham/Gotham-Light.otf");
 	font-style: normal;
 }
+
+@font-face {
+	font-family: "Gotham-Italic";
+	src: url("../fonts/gotham/Gotham-BookItalic.otf");
+}
