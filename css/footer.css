@@ -1,0 +1,39 @@
+footer {
+	background-color: #333333;
+	height: 60px;
+	left: 0;
+	position: absolute;
+  	bottom: -0.5rem;
+ 	width: 100%;
+}
+
+.footer a {
+	color: #FFFF;
+	display: block;
+	float: left;
+	font-family: "Gotham";
+	font-size: 17px;
+	padding: 14px 60px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.footer p {
+	color: #FFFF;
+	display: block;
+	font-size: 17px;
+	font-family: "Gotham";
+	padding: 0 90px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.footer-nav-items-right {
+	float: right;
+	margin-top: 0.5rem;
+}
+
+.footer-nav-items-left {
+	float: left;
+	margin-top: 0.5rem;
+}
