@@ -90,6 +90,6 @@
 @media only screen and (min-width: 600px) and (max-device-width: 900px) {
     .square {
     	display: block;
-		transform: translate(-12%, -10%);
+		transform: translate(26%, -10%);
 	}
 }
