@@ -1,7 +1,8 @@
 /*Section USPs*/
 .usps {
-	margin: 5rem;
+	margin-top: 5rem;
 }
+
 .leads {
 	margin-top: 10rem;
 	text-align: center;
@@ -25,15 +26,15 @@
 
 .intro-presale {
 	color: #666666;
-	margin-bottom: 2rem;
+	margin-bottom: 5rem;
 	width: 60%;
 }
 
 .intro-img {
 	position: absolute;
-	right: 23.7%;
+	right: 0;
   	top: 105%;
-  	transform: translate(50%, 50%);
+  	transform: translate(0, 50%);
 }
 
 /*Section USP info*/
@@ -44,7 +45,6 @@
 
 /*2 screens divided*/
 .leftside, .rightside {
-	margin: -0.5rem;
 	width: 100%;
 	z-index: -1;
 }
