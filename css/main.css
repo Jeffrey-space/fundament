@@ -17,8 +17,6 @@
 	text-align: center;
 }
 
-
-
 /*Section introduction*/
 .introduction {
 	margin-top: 5rem;
@@ -32,8 +30,8 @@
 }
 
 .intro-img {
-	right: 23.7%;
 	position: absolute;
+	right: 23.7%;
   	top: 105%;
   	transform: translate(50%, 50%);
 }
@@ -46,9 +44,9 @@
 
 /*2 screens divided*/
 .leftside, .rightside {
-	z-index: -1;
-	width: 100%;
 	margin: -0.5rem;
+	width: 100%;
+	z-index: -1;
 }
 
 .leftside {
@@ -104,10 +102,10 @@
 }
 
 /*price table*/
-#pricing{
-	width: 989px;
+#pricing {
 	margin: auto;
 	font-family: Gotham;
+	width: 989px;
 }
 
 .plan-title {
@@ -115,13 +113,12 @@
 	z-index: 1;
 }
 
-.price_card{
+.price_card {
 	margin: 5rem;
 	width: 300px;
-	background-color: #efefef;
 }
 
-.basic {
+.basic, .premium {
 	background-color: #efefef;
 	height: 570px;
 	text-align: center;
@@ -132,30 +129,31 @@
 	height: 200px;
 }
 
-.features{
-	text-align: center;
+.header-premium {
+	background: #666666;
+	height: 200px;
+}
+
+.features {
 	color: #333333;
 	margin-top: 5rem;
 	padding: 15px;
+	text-align: center;
 	width: 100%;
 }
 
 .plan-price {
-	display: inline-block;
-    margin: 69px 69px 0 69px;
-    font-size: 25px;
-    font-weight: bold;
-    background: #fff;
+	background-clip: padding-box;
+	background: #fff;
+	border: 10px solid rgba(255, 255, 255, .5);
+    -webkit-background-clip: padding-box;
     border-radius: 50%;
     color: #000000;
+    display: inline-block;
+    margin: 69px 69px 0 69px;
     padding: 60px 35px;
-    border: 10px solid rgba(255, 255, 255, .5);
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-}
-
-.order-buttons {
-	margin-left: 3rem;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 /*Section Contact*/
@@ -187,6 +185,16 @@ form {
 input {
 	border: 1px solid #666666;
 	border-radius: 15px;
-	padding: 13px 150px 20px 13px;
-	margin: 0.3rem;
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	color: rgb(179,184,188, 0.1) !important;
+	
 }
+
+#contact input[type="text"],
+#contact input[type="tel"],
+#contact input[type="email"] {
+	padding: 13px 150px 13px 13px;
+	font-size: 16px;
+}
+   

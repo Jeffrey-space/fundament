@@ -1,8 +1,8 @@
 * {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 }
 
-h1	{
+h1 {
 	font-size: 60px;
 	margin: 1rem;
 }
@@ -55,10 +55,10 @@ hr {
 }
 
 .row {
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 }
 
 .divider {
@@ -71,3 +71,48 @@ hr {
 	width: 40%;
 }
 
+/*buttons*/
+.btn-primary {
+	background-color: #f8a322 ;
+	border: none;
+	border-radius: 12px;
+	color: #FFFF;
+	display: inline-block;
+	font-family: serif;
+	font-size: 22.50px;
+	padding: 13px 70px 13px 70px;
+}
+
+.btn-primary:hover {
+	background-color: #f39405;
+}
+
+.btn-secondary {
+	background-color: transparent;
+	border: 2px solid #FFFF;
+	border-radius: 12px;
+	color: #FFFF;
+	font-family: serif;
+	font-size: 22.50px;
+	padding: 11px 50px 11px 50px;
+}
+
+.btn-secondary:hover {
+	color: #f39405;
+	border: 2px solid #f39405;
+}
+
+.btn-primary-grey {
+	background-color: #666666;
+	border: none;
+	border-radius: 12px;
+	color: #FFFF;
+	display: inline-block;
+	font-family: serif;
+	font-size: 22.50px;
+	padding: 13px 70px 13px 70px;
+}
+
+.btn-primary-grey:hover {
+	background-color: #f39405;
+}

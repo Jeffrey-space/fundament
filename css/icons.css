@@ -9,32 +9,32 @@
 }
 
 .square {
-	width: 130px;
+	display: inline-block;
     height: 130px;
+    margin-left: 3rem;
     position: absolute;
-  	margin-left: 3rem;
-    display: inline-block;
+    width: 130px;
 }
 
 .square:before {
-	position: absolute;
-    display: block;
-    content: "";
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
+	background-color: #FFFFFF;
+	bottom: 0;
     border: 1px solid #000000;
-    background-color: #FFFFFF;
+	content: "";
+	display: block;
+	left: 0;
+	position: absolute;
+    right: 0;
+    top: 0;
     transform: rotate(45deg);
     z-index: -1;
 }
 
 .square-icon {
-    width: 100px;
-    height: 100px;
-    text-align: center;
+	display: inline-block;
     margin-left: 1rem;
     margin-top: 1.8rem;
-    display: inline-block;
+    height: 100px;
+    text-align: center;
+    width: 100px;
 }
