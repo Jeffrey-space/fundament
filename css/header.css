@@ -55,26 +55,22 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .navbar a:not(:first-child) {display: none;}
-  .navbar a.icon {
-    float: right;
-    display: block;
-  }
+/*Responsive styles*/
+/*Mobile*/
+@media only screen and (max-device-width: 480px) {
+	.navbar a {
+		font-size: 12px;
+		padding: 1.5rem 1rem 0 0;
+	}
+
+	.nav-items-left {
+	    margin-left: 1rem;
 }
 
-@media screen and (max-width: 600px) {
-  .navbar.responsive {position: relative;}
-  .navbar.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .navbar.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
+	.nav-items-right {
+		float: right;
+	    margin-top: 0;
+	}
 }
 
 /*Hero image*/
