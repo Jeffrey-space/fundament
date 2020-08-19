@@ -157,5 +157,36 @@
 .order-buttons {
 	margin-left: 3rem;
 }
-    
 
+/*Section Contact*/
+.contact {
+	margin-bottom: 2rem;
+}
+
+.contact-title {
+	margin-top: 5rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.contact-button {
+ 	text-align: center;
+}
+
+form {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
+}
+
+#contact {
+  width: 25%;
+  text-align: center;
+}
+
+input {
+	border: 1px solid #666666;
+	border-radius: 15px;
+	padding: 13px 150px 20px 13px;
+	margin: 0.3rem;
+}
