@@ -11,8 +11,8 @@
 .square {
 	display: inline-block;
     height: 130px;
-    margin-left: 3rem;
     position: absolute;
+    transform: translate(50%, -15%);
     width: 130px;
 }
 
@@ -37,4 +37,59 @@
     height: 100px;
     text-align: center;
     width: 100px;
+}
+
+/*Responsive styles Socials and footer*/
+/*Mobile*/
+@media only screen and (max-device-width: 480px) {
+	.footer-icons{
+		margin-left: 2rem;
+	}
+
+	.fb-icon {
+		margin-top: 0;
+		margin-right: 1rem;
+	}
+
+	.tw-icon {
+		margin-right: 1rem;
+	}
+}
+
+/*tablets*/
+@media only screen and (min-width: 600px) and (max-device-width: 900px) {
+ 	.footer-icons{
+		margin-left: 4rem;
+	}
+
+	.fb-icon {
+		margin-top: 0;
+		margin-right: 1.5rem;
+	}
+
+	.tw-icon {
+		margin-right: 1rem;
+	}
+}
+
+/*Responsive styles USP*/
+/*Mobile*/
+@media only screen and (max-device-width: 480px) {
+	.square {
+		transform: translate(-50%, -10%);
+	}
+
+	.square-icon {
+		display: block;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+	}
+}
+
+/*tablets*/
+@media only screen and (min-width: 600px) and (max-device-width: 900px) {
+    .square {
+    	display: block;
+		transform: translate(-12%, -10%);
+	}
 }

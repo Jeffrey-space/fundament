@@ -1,3 +1,13 @@
+/* Style the hamburger menu */
+.navbar a.icon {
+  background: #FFFF;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
 /*Navigation*/
 .navbar {
 	background-color: #FFFF;
@@ -5,6 +15,7 @@
 	left: 0;
 	overflow: hidden;
 	position: fixed;
+	right: 0;
 	top: 0;
 	width: 100%;
 	z-index: 1;
@@ -50,6 +61,32 @@
 	text-align: center;
 }
 
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 /*Hero image*/
 .hero-image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero_image.jpg");
@@ -83,6 +120,24 @@
 	margin-right: 1rem;
 }
 
+/*Responsive styles*/
+/*Mobile*/
+@media only screen and (max-device-width: 480px) {
+	.hero-text {
+		width: 100%;
+	}
 
+  	.cta-button {
+    	margin-top: 3rem;
+    	margin-bottom: 1rem;
+    	margin-left: 1rem;
+	}
+}
 
-
+/*tablets*/
+@media only screen and (min-width: 600px) and (max-device-width: 900px) {
+    .cta-button {
+    	margin-bottom: 2rem;
+    	margin-left: 1rem;
+	}
+}

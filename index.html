@@ -11,27 +11,33 @@
 	<link rel="stylesheet" type="text/css" href="../fundament/css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../fundament/css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="../fundament/css/icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>	
 	<header>
 		<nav>
-			<div class="navbar col-12 col-s-6">
+			<div class="navbar">
 				<div class="nav-items">
-					<div class="nav-items-left">
-				  		<a class="active" href="#home">Home</a>
-				  		<a href="#pre_sale">Pre-sale</a>
+					<div id="myLinks">
+					   <div class="nav-items-left">
+				  		<a class="active" href="#">Home</a>
+				  		<a href="#usps">Pre-sale</a>
 					</div>
 					<div class="circle">
 						<span class="circle-text">P</span>
 					</div>
 				  	<div class="nav-items-right">
-				    	<a href="#uitleg">Uitleg</a>
+				    	<a href="#usp-info">Uitleg</a>
 				  		<a href="#contact">Contact</a>
 				  	</div>
-				</div>
+			 	</div>
+				<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			    <i class="fa fa-bars"></i>
+			  </a>
 			</div>
 		</nav>
-		<div class="hero-image col-12 col-s-6">
+		<div class="hero-image">
 		  	<div class="hero-text">
 			    <h1>PRE-SALE</h1>
 			    <h2>'Maximaal inspelen van de markt'</h2>
@@ -43,7 +49,7 @@
 		</div>
 	</header>
 	<main>
-		<section class="usps col-12 col-s-6">
+		<section id="usps" class="usps">
 			<div class="container">
 				<div class="row">
 				  <div class="column">
@@ -87,13 +93,13 @@
 			<hr>
 		</section>
 
-		<section class="introduction col-12 col-s-6">
+		<section id="introduction" class="introduction">
 			<div class="container-wide">
 				<h4 class="intro-titel">PRESALE IS</h4>
 					<hr class="divider">
 				<p class="intro-presale">De pre-sale fase binnen een project is een methode om een ontwik-keld nieuwbouwproject te toetsen bij de eventuele koper. Bij de pre-sale fase worden de woningtypes zichtbaar gemaakt met afbeeldin-gen, omschrijving en het verwachte prijsniveau. De informatie op bouwnummerniveau mist op dat moment nog. Door enkele maanden actief campagne te voeren wordt er een actueel beeld zichtbaar of het ontwikkelde product in lijn ligt met de vraag van de markt.
 				Om uiteindelijk mee te bewegen kan er in deze fase besloten worden om het prijsniveau bij te stellen, de faseringen aan te passen of de woningtypes te veranderen. Als blijkt dat er helemaal geen vraag is naar het product kan je je afvragen of je in verkoop moet gaan of dat er een ander product dient te komen. De pre-sale fase geeft meer ga-rantie voor betere verkoop.</p>
-				<div class="cta-buttons">
+				<div class="cta-buttons intro-button">
 		  			<button class="btn-primary">Contact</button>
 		  		</div>
 		  		<div>
@@ -101,7 +107,7 @@
 		  		</div>
 			</div>
 		</section>
-		<section class="usp-info col-12 col-s-6">
+		<section id="usp-info" class="usp-info">
 			<div class="row">
 				<div class="leftside">
 					<div class="text-block">
@@ -149,44 +155,42 @@
 				</div>
 			</div>
 		</section>
-		<section class="prices col-12 col-s-6">
+		<section id="pricing" class="prices">
 			<div class="price-title">
 				<h4>Prijzen</h4>
 				<hr>
 			</div>
-			<div id="pricing">
-				<div class="container">
-					<div class="row">
-						<div class="price_card basic">
-							<div class="header">
-								<span class="plan-title">Basic</span>
-		                        <span class="plan-price">1296,-</span>
-							</div>
-							<div class="features">
-								<p>Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos wer dolenEhenimus. </p>
-							</div>
-							<div class="order-buttons">
-				  				<button class="btn-primary">Bestel</button>
-				  			</div>
+			<div class="container">
+				<div class="row">
+					<div class="price_card basic">
+						<div class="header">
+							<span class="plan-title">Basic</span>
+	                        <span class="plan-price">1296,-</span>
 						</div>
-						<div class="price_card premium">
-							<div class="header-premium">
-								<span class="plan-title">Premium</span>
-		                        <span class="plan-price">1296,-</span>
-							</div>
-							<div class="features">
-								<p>Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos wer dolenEhenimus. </p>
-							</div>
-							<div class="order-buttons">
-				  				<button class="btn-primary-grey">Bestel</button>
-				  			</div>
+						<div class="features">
+							<p>Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos wer dolenEhenimus. </p>
 						</div>
+						<div class="order-buttons">
+			  				<button class="btn-primary">Bestel</button>
+			  			</div>
+					</div>
+					<div class="price_card premium">
+						<div class="header-premium">
+							<span class="plan-title">Premium</span>
+	                        <span class="plan-price">1296,-</span>
+						</div>
+						<div class="features">
+							<p>Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos wer dolenEhenimus. </p>
+						</div>
+						<div class="order-buttons">
+			  				<button class="btn-primary-grey">Bestel</button>
+			  			</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="contact col-12  col-s-6">
+		<section class="contact">
 			<div class="contact-title">
 				<h4>Contact</h4>
 					<hr>
@@ -222,5 +226,7 @@
 			</div>
 		</div>
 	</footer>
+	<script type="text/javascript" href="../fundament/JS/script.js"></script>
 </body>
+
 </html>

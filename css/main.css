@@ -1,4 +1,4 @@
-/*Section USPs*/
+/*Section USPs desktop*/
 .usps {
 	margin-top: 5rem;
 }
@@ -18,7 +18,7 @@
 	text-align: center;
 }
 
-/*Section introduction*/
+/*Section introduction desktop*/
 .introduction {
 	margin-top: 5rem;
 	margin-bottom: 20rem;
@@ -37,13 +37,52 @@
   	transform: translate(0, 50%);
 }
 
-/*Section USP info*/
+/*Responsive styles Section introduction*/
+/*Mobile*/
+@media only screen and (max-device-width: 480px) {
+	.intro-img {
+		display: none;
+	}
+
+	.intro-presale {
+		width: 100%;
+	}
+
+	.intro-button {
+		margin-top: -2rem;
+	}
+
+	.introduction {
+		margin-bottom: 0;
+	}
+}
+
+/*tablets*/
+@media only screen and (min-width: 600px) and (max-device-width: 900px) {
+    .intro-img {
+		display: none;
+	}
+
+	.intro-presale {
+		width: 100%;
+	}
+
+	.intro-button {
+		margin-top: -2rem;
+	}
+
+	.introduction {
+		margin-bottom: 0;
+	}
+}
+
+/*Section USP info desktop*/
 .usp-info {
 	margin-top: 5rem;
 	margin-bottom: 5rem;
 }
 
-/*2 screens divided*/
+/*2 screens divided text block and image*/
 .leftside, .rightside {
 	width: 100%;
 	z-index: -1;
@@ -52,6 +91,10 @@
 .leftside {
 	background-color: #333333;
 	height: 41rem;
+}
+
+.rightside {
+	z-index: -2;
 }
 
 .text-block {
@@ -65,15 +108,56 @@
 	width: 100%;
 }
 
-/*Center icons*/
+/*Responsive styles Section USP info*/
+/*Mobile*/
+@media only screen and (max-device-width: 480px) {
+	.work-img{
+		display: none;
+	}
+
+	.text-block {
+		margin-left: 2rem;
+		text-align: left;
+		width: 80%;
+	}
+
+	.leftside {
+		height: 58rem;
+	    padding-top: 0.5rem;
+	}
+}
+
+/*tablets*/
+@media only screen and (min-width: 600px) and (max-device-width: 900px) {
+ 	.work-img{
+		height: 55.5rem;
+	}
+
+	.text-block {
+		font-size: 14px;
+		margin-left: 2rem;
+		text-align: left;
+		width: 70%;
+	}
+
+	.leftside {
+		height: 55rem;
+	    padding-top: 0.5rem;
+	}
+}
+
+/*Center icons desktop*/
 .centerside {
-	margin-right: 13.1rem;
 	position: absolute;
-	z-index: 1;
+	z-index: -1;
 }
 
 .center-icon.square-icon {
 	margin-left: 0;
+}
+
+.center-leads.square,.center-price.square,.center-output.square {
+	transform: translate(-50%, -50%);
 }
 
 .center-leads.square {
@@ -94,14 +178,31 @@
 	width: 100px;
 }
 
-/*Section Prices*/
+
+
+/*Responsive styles Center icons*/
+/*Mobile*/
+@media only screen and (max-device-width: 480px) {
+	.center-leads.square,.center-price.square,.center-output.square {
+		display: none;
+	}
+}
+
+/*Responsive styles Center icons*/
+/*Tablet*/
+@media only screen and (min-width: 600px) and (max-device-width: 900px)) {
+	.center-leads.square,.center-price.square,.center-output.square {
+		transform: translate(7%, -10%);
+	}
+}
+
+/*Section Prices desktop*/
 .price-title {
 	margin-top: 5rem;
 	margin-bottom: 5rem;
 	text-align: center;
 }
 
-/*price table*/
 #pricing {
 	font-family: Gotham;
 }
@@ -121,7 +222,7 @@
 
 .basic, .premium {
 	background-color: #efefef;
-	height: 550px;
+	height: 540px;
 	width: 300px;
 	text-align: center;
 }
@@ -137,10 +238,11 @@
 }
 
 .features {
-	color: #333333;
-	margin-top: 5rem;
-	text-align: center;
-	width: 100%;
+    color: #333333;
+    margin-top: 5rem;
+    display: inline-block;
+    text-align: center;
+    width: 90%;
 }
 
 .plan-price {
@@ -158,10 +260,30 @@
 }
 
 .order-buttons {
-	margin-top: 2rem;
+	margin-top: 0.5rem;
 }
 
-/*Section Contact*/
+/*Responsive styles price table*/
+/*Mobile*/
+@media only screen and (max-device-width: 480px) {
+	.price_card {
+		margin: 2rem auto;
+	}
+}
+
+/*Responsive styles Center icons*/
+/*Tablet*/
+@media only screen and (min-width: 600px) and (max-device-width: 900px) {
+	.price_card {
+		margin: 2rem auto;
+	}
+
+	.price-title {
+		margin-bottom: 0;
+	}
+}
+
+/*Section Contact desktop*/
 .contact {
 	margin-bottom: 2rem;
 }
@@ -201,5 +323,35 @@ input {
 #contact input[type="email"] {
 	padding: 13px 150px 13px 13px;
 	font-size: 16px;
+}
+
+/*Responsive styles Section Contact*/
+/*Mobile*/
+@media only screen and (max-device-width: 480px) {
+	form {
+		margin: 0;
+		margin-bottom: 1rem;
+	}
+
+	#contact input[type="text"],
+	#contact input[type="tel"],
+	#contact input[type="email"] {
+		padding: 13px 86px 13px 13px;
+	}
+}
+
+/*Responsive styles Center icons*/
+/*Tablet*/
+@media only screen and (min-width: 600px) and (max-device-width: 900px) {
+	form {
+		margin-left: 10rem;
+		margin-bottom: 1rem;
+	}
+
+	#contact input[type="text"],
+	#contact input[type="tel"],
+	#contact input[type="email"] {
+		padding: 13px 86px 13px 13px;
+	}
 }
    
