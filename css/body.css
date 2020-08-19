@@ -21,14 +21,32 @@ h3 {
 	font-style: normal;
 }
 
+h4 {
+	color: #f39405;
+	font-family: Gotham-Bold;
+	font-size: 25px;
+	font-weight: 300;
+	font-style: bold;
+	text-transform: uppercase;
+}
+
 p {
 	font-family: Gotham;
 	font-style: normal;
 }
 
+hr {
+	width: 70%;
+}
+
 .container {
 	margin: auto;
 	max-width: 50%;
+}
+
+.container-wide {
+	margin: auto;
+	max-width: 80%;
 }
 
 .column {
@@ -41,5 +59,15 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.divider {
+	margin: 0;
+	margin-top: -1.5rem;
+	width: 5%;
+}
+
+.divider-icon {
+	width: 40%;
 }
 

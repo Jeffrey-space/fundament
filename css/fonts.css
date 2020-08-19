@@ -8,3 +8,8 @@
 	font-family: "Gotham-Italic";
 	src: url("../fonts/gotham/Gotham-BookItalic.otf");
 }
+
+@font-face {
+	font-family: "Gotham-Bold";
+	src: url("../fonts/gotham/Gotham-Bold.otf");
+}

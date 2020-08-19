@@ -7,3 +7,34 @@
 .tw-icon {
 	filter: invert(100%);
 }
+
+.square {
+	width: 130px;
+    height: 130px;
+    position: absolute;
+  	margin-left: 3rem;
+    display: inline-block;
+}
+
+.square:before {
+	position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.square-icon {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 1.8rem;
+    display: inline-block;
+}
