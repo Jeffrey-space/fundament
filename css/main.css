@@ -103,24 +103,26 @@
 
 /*price table*/
 #pricing {
-	margin: auto;
 	font-family: Gotham;
-	width: 989px;
 }
 
 .plan-title {
+	color: #FFFFFF;
+	display: inline-block;
+	font-family: Gotham-Bold;
+	font-size: 22px;
 	margin-top: 2rem;
-	z-index: 1;
+    text-align: center;
 }
 
 .price_card {
 	margin: 5rem;
-	width: 300px;
 }
 
 .basic, .premium {
 	background-color: #efefef;
-	height: 570px;
+	height: 550px;
+	width: 300px;
 	text-align: center;
 }
 
@@ -137,7 +139,6 @@
 .features {
 	color: #333333;
 	margin-top: 5rem;
-	padding: 15px;
 	text-align: center;
 	width: 100%;
 }
@@ -150,10 +151,14 @@
     border-radius: 50%;
     color: #000000;
     display: inline-block;
-    margin: 69px 69px 0 69px;
+    margin: 40px 69px 0 69px;
     padding: 60px 35px;
     font-size: 25px;
     font-weight: bold;
+}
+
+.order-buttons {
+	margin-top: 2rem;
 }
 
 /*Section Contact*/
