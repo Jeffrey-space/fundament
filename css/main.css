@@ -58,7 +58,7 @@
 }
 
 /*tablets*/
-@media only screen and (min-width: 600px) and (max-device-width: 900px) {
+@media only screen and (min-width: 600px) and (max-device-width: 1024px) {
     .intro-img {
 		display: none;
 	}
@@ -128,7 +128,7 @@
 }
 
 /*tablets*/
-@media only screen and (min-width: 600px) and (max-device-width: 900px) {
+@media only screen and (min-width: 600px) and (max-device-width: 1024px) {
  	.work-img{
 		height: 55.5rem;
 	}
@@ -190,9 +190,9 @@
 
 /*Responsive styles Center icons*/
 /*Tablet*/
-@media only screen and (min-width: 600px) and (max-device-width: 900px)) {
+@media only screen and (min-width: 600px) and (max-device-width: 1024px) {
 	.center-leads.square,.center-price.square,.center-output.square {
-		transform: translate(7%, -10%);
+		transform: translate(-50%, -10%);
 	}
 }
 
@@ -273,13 +273,19 @@
 
 /*Responsive styles Center icons*/
 /*Tablet*/
-@media only screen and (min-width: 600px) and (max-device-width: 900px) {
+@media only screen and (min-width: 600px) and (max-device-width: 1024px) {
 	.price_card {
 		margin: 2rem auto;
 	}
 
 	.price-title {
 		margin-bottom: 0;
+	}
+}
+
+@media only screen and  (min-width: 900px) and (max-device-width: 1024px) {
+	.price_card {
+		margin: 1rem;
 	}
 }
 
@@ -338,13 +344,17 @@ input {
 	#contact input[type="email"] {
 		padding: 13px 86px 13px 13px;
 	}
+
+	#contact {
+		width: 100%;
+	}
 }
 
 /*Responsive styles Center icons*/
 /*Tablet*/
 @media only screen and (min-width: 600px) and (max-device-width: 900px) {
 	form {
-		margin-left: 10rem;
+		transform: translate(-45%, 0%);
 		margin-bottom: 1rem;
 	}
 
@@ -354,4 +364,10 @@ input {
 		padding: 13px 86px 13px 13px;
 	}
 }
-   
+
+@media only screen and (min-width: 900px) and (max-device-width: 1024px) {
+	form {
+		transform: translate(-40%, 0%);
+		margin-bottom: 1rem;
+	}
+}
