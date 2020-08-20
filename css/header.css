@@ -66,17 +66,22 @@
 /*Mobile*/
 @media only screen and (max-device-width: 480px) {
 	.navbar a {
-		font-size: 12px;
+		font-size: 15px;
 		padding: 1.5rem 1rem 0 0;
 	}
 
 	.nav-items-left {
-	    margin-left: 1rem;
+	    position: fixed;
+	    margin-top: 2.5rem;
+	    margin-left: 10.6rem;
+	    z-index: 2;
 }
 
 	.nav-items-right {
-		float: right;
-	    margin-top: 0;
+		margin-top: 7.4rem;
+	    position: fixed;
+	    margin-right: auto;
+	    margin-left: 10.6rem;
 	}
 }
 
@@ -151,3 +156,36 @@
     	margin-left: 1rem;
 	}
 }
+
+@media screen and (max-width: 600px) {
+  .nav-items a:not(:nth-of-type(3)) {display: none;}
+  .nav-items a.icon {
+    display: block;
+    position: absolute;
+    float: right;
+  	margin-right: 22.5rem;
+  }
+
+  .fa-bars:before {
+    content: "\f0c9";
+  	float: right;
+    margin-right: -22rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-items.responsive {position: relative;}
+  .nav-items.responsive .nav-items-left .icon {
+  }
+
+  .nav-items.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 189px;
+    background-color: #FFFFFF;
+  }
+
+
+}
+

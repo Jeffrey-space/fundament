@@ -11,23 +11,29 @@
 	<link rel="stylesheet" type="text/css" href="../fundament/css/footer.css">
 	<link rel="stylesheet" type="text/css" href="../fundament/css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="../fundament/css/icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>	
 	<header>
 		<nav>
-			<div class="navbar" id="myNavbar">
-				<div class="nav-items">
-					<div class="nav-items-left">
-				  		<a class="active" href="#">Home</a>
+			<div class="navbar" >
+				<div class="nav-items" id="myLinks">
+				   	<div class="nav-items-left">
+				  		<a href="#">Home</a>
 				  		<a href="#usps">Pre-sale</a>
 					</div>
-					<div class="circle">
-						<span class="circle-text">P</span>
-					</div>
+					
 				  	<div class="nav-items-right">
 				    	<a href="#usp-info">Uitleg</a>
 				  		<a href="#contact">Contact</a>
 				  	</div>
+				  	<!-- "Hamburger menu" -->
+				  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				    	<i class="fa fa-bars"></i>
+				  	</a>
+				</div>
+				<div class="circle">
+					<span class="circle-text">P</span>
 				</div>
 			</div>
 		</nav>
@@ -221,4 +227,5 @@
 		</div>
 	</footer>
 </body>
+<script type="text/javascript" src="../fundament/JS/script.js"></script>
 </html>
