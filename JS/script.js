@@ -1,5 +1,5 @@
-function myFunction() {
-  var x = document.getElementById("myLinks");
+function dropwdownMenu() {
+  var x = document.getElementById("nav-list");
   if (x.className === "nav-items") {
     x.className += " responsive";
   } else {

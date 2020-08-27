@@ -25,14 +25,18 @@
 	color: #f8a322;
 }
 
+.nav-items {
+	display: flex;
+  	align-content: space-between;
+}
+
 .nav-items-left {
-	float: left;
 	margin-left: 10rem;
     margin-top: 0.2rem;
 }
 
 .nav-items-right {
-	float: right;
+	margin-left: auto;
 	margin-right: 10rem;
     margin-top: 0.2rem;
 }
