@@ -320,8 +320,6 @@ input {
 	border-radius: 15px;
 	margin-top: 0.3rem;
 	margin-bottom: 0.3rem;
-	color: rgb(179,184,188, 0.1) !important;
-	
 }
 
 #contact input[type="text"],
