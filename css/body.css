@@ -84,6 +84,7 @@ hr {
 
 .btn-primary:hover {
 	background-color: #f39405;
+	cursor: pointer;
 }
 
 .btn-secondary {
@@ -99,6 +100,7 @@ hr {
 .btn-secondary:hover {
 	color: #f39405;
 	border: 2px solid #f39405;
+	cursor: pointer;
 }
 
 .btn-primary-grey {
@@ -114,8 +116,8 @@ hr {
 
 .btn-primary-grey:hover {
 	background-color: #f39405;
+	cursor: pointer;
 }
-
 
 /*Responsive styles*/
 /*Mobile*/
