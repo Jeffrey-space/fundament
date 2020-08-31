@@ -128,6 +128,16 @@
 	}
 }
 
+@media only screen and (max-width: 1024px) {
+	.nav-items-left {
+		margin-left: auto;
+	}
+
+	.nav-items-right {
+		margin-right: auto;
+	}
+}
+
 /*Hero image*/
 .hero-image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero_image.jpg");
